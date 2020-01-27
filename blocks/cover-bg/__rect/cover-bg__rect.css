@@ -1,0 +1,25 @@
+.cover-bg__rect {
+    width: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../../images/cover__image.jpg');
+}
+
+@media screen and (max-width: 1024px) {
+    .cover-bg__rect {
+        padding-bottom: 56%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover-bg__rect {
+        padding-bottom: 67%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover-bg__rect {
+        padding-bottom: 72%;
+    }
+}

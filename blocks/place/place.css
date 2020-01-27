@@ -1,0 +1,40 @@
+@import url('../../../vendor/Inter/inter.css');
+@import url('./__title/place__title.css');
+@import url('./__website/place__website.css');
+@import url('./__url-heading/place__url-heading.css');
+@import url('./__url/place__url.css');
+@import url('./__image/place__image.css');
+@import url('./__container/place__container.css');
+@import url('./__paragraph/place__paragraph.css');
+@import url('./___paragraph-container/place__paragraph-container.css');
+@import url('./__image-container/place__image-container.css');
+
+.place {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 72px;
+}
+
+.place:last-of-type {
+    padding-bottom: 102px;
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        padding: 0px 16px 48px;
+        display: flex;
+        flex-direction: column;
+    }
+    .place:last-of-type {
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        padding: 0px 0px 48px;
+    }
+    .place:last-of-type {
+        padding-bottom: 64px;
+    }
+}

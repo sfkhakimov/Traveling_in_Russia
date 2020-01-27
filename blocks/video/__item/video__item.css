@@ -1,0 +1,15 @@
+.video__item {
+    position: relative;
+    width: calc((100% - 20px)/2);
+    max-height: 323px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+    .video__item {
+        width: 100%;
+        max-height: none;
+        margin-bottom: 3%;
+    }
+}

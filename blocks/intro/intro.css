@@ -1,0 +1,24 @@
+@import url('../../vendor/Inter/inter.css');
+@import url('./__title/intro__title.css');
+@import url('./__content-row/intro__content-row.css');
+@import url('./__text/intro__text.css');
+@import url('./__text-facts/intro__text-facts.css');
+@import url('./__text-facts-number/intro__text-facts-number.css');
+
+.intro {
+    max-width: 984px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding-top: 64px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding-top: 80px;
+    }
+}

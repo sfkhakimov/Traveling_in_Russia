@@ -1,0 +1,13 @@
+.video__subtitle {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 86.68%;
+    left: 5%;
+    margin: 0px;
+    z-index: 1;
+}

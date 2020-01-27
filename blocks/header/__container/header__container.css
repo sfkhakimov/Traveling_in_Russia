@@ -1,0 +1,19 @@
+.header__container {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    margin-right: 48px;
+    margin-top: 47px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .header__container { 
+        margin-top: 32px;
+        margin-right: 16px;
+    }
+}

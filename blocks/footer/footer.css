@@ -1,0 +1,20 @@
+@import url('../../vendor/Inter/inter.css');
+@import url('./__nav/footer__nav.css');
+@import url('./__link/footer__link.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 16px 48px;
+    max-width: 1184px;
+    margin: auto;
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        padding: 64px 16px 24px;
+    }
+}

@@ -1,0 +1,14 @@
+.place__container {
+    display: flex;
+    width: 100%;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .place__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px;
+    }
+}

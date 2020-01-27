@@ -1,0 +1,10 @@
+.place__image-container {
+    max-width: 460px;
+}
+
+@media screen and (max-width: 767px) {
+    .place__image-container {
+        width: 100%;
+        max-width: none;
+    }
+}

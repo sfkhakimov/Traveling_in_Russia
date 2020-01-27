@@ -1,0 +1,6 @@
+@import url('../cover-bg/__rect/cover-bg__rect.css');
+@import url('../cover-bg/__image/cover-bg__image.css');
+
+.cover-bg {
+    width: 100%;
+}

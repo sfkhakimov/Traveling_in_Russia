@@ -1,0 +1,28 @@
+.footer__link {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-right: 18px;
+    width: 0;
+}
+
+.footer__link:last-of-type {
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__link {
+        padding-bottom: 32px;
+    }
+}

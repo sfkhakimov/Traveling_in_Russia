@@ -1,0 +1,22 @@
+@import url('../../vendor/Inter/inter.css');
+
+.content-title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 800px;
+    padding-bottom: 48px;
+    margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-title {
+        font-size: 32px;
+        line-height: 35px;
+        padding: 0px 16px 16px;
+    }
+}
