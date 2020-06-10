@@ -3,7 +3,7 @@
 ## Описание 
 
 Учебный проект от Яндекс.Практикума. Одностраничный сайт, адаптирован под мобильные устройства. В верстке использовал flex и grid.  
-Проект собрал Wepbacom. Посмотреть можно по ссылке: https://sfkhakimov.github.io/Traveling_in_Russia/
+Проект собрал Wepback'ом. Посмотреть можно по ссылке: https://sfkhakimov.github.io/Traveling_in_Russia/
 
 ## Планы
 
