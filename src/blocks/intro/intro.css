@@ -11,14 +11,14 @@
     padding-top: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .intro {
-        padding-top: 64px;
+        padding: 80px 24px 0px
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     .intro {
-        padding-top: 80px;
+        padding: 64px 16px 0px;
     }
 }

@@ -5,15 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="vendor/normalize.css">
-    <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
 
     <div class="page">
 
         <header class="header">
-            <img class="header__logo" src="./images/__logo.svg" alt="Логотип">
+            <img class="header__logo" src="<%=require('./images/__logo.svg').default%>" alt="Логотип">
             <div class="header__container">
                 <a class="header__lang header__lang_activ link" href="#">Ru</a>
                 <a class="header__lang link" href="#">En</a>
@@ -24,7 +22,7 @@
             <h1 class="lead__title">Путешествия по России</h1>
             <h3 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h3>
             <div class="lead__image">
-                <img class="lead__image-route" src="./images/group4.png" alt="Маршрут">
+                <img class="lead__image-route" src="<%=require('./images/group4.png').default%>" alt="Маршрут">
             </div>
             <p class="lead__caption">ваша полка — верхняя</p>
         </section>
@@ -42,18 +40,18 @@
         </section>
 
         <section class="photo">
-            <img class="photo__item" src="./images/__item.jpg" alt="Окно в купе поезда">
-            <img class="photo__item" src="./images/__item2.jpg" alt="Горы">
-            <img class="photo__item" src="./images/__item3.jpg" alt="Поле">
-            <img class="photo__item" src="./images/__item4.jpg" alt="Лес в тумане">
-            <img class="photo__item" src="./images/__item5.jpg" alt="Машина на льду">
-            <img class="photo__item" src="./images/__item6.jpg" alt="Берег">
-            <img class="photo__item" src="./images/__item7.jpg" alt="Большая гора">
-            <img class="photo__item" src="./images/__item8.jpg" alt="Пешеходный переход">
-            <img class="photo__item" src="./images/__item9.jpg" alt="Вид на горы сверху">
-            <img class="photo__item" src="./images/__item10.jpg" alt="Гора вдали">
-            <img class="photo__item" src="./images/__item11.jpg" alt="Скалы">
-            <img class="photo__item" src="./images/__item12.jpg" alt="Горы в тумане">
+            <img class="photo__item" src="<%=require('./images/__item.jpg').default%>" alt="Окно в купе поезда">
+            <img class="photo__item" src="<%=require('./images/__item2.jpg').default%>" alt="Горы">
+            <img class="photo__item" src="<%=require('./images/__item3.jpg').default%>" alt="Поле">
+            <img class="photo__item" src="<%=require('./images/__item4.jpg').default%>" alt="Лес в тумане">
+            <img class="photo__item" src="<%=require('./images/__item5.jpg').default%>" alt="Машина на льду">
+            <img class="photo__item" src="<%=require('./images/__item6.jpg').default%>" alt="Берег">
+            <img class="photo__item" src="<%=require('./images/__item7.jpg').default%>" alt="Большая гора">
+            <img class="photo__item" src="<%=require('./images/__item8.jpg').default%>" alt="Пешеходный переход">
+            <img class="photo__item" src="<%=require('./images/__item9.jpg').default%>" alt="Вид на горы сверху">
+            <img class="photo__item" src="<%=require('./images/__item10.jpg').default%>" alt="Гора вдали">
+            <img class="photo__item" src="<%=require('./images/__item11.jpg').default%>" alt="Скалы">
+            <img class="photo__item" src="<%=require('./images/__item12.jpg').default%>" alt="Горы в тумане">
         </section>
 
         <section class="places">
@@ -63,12 +61,12 @@
                     <h2 class="place__title">Куршская коса</h2>
                     <div class="place__website">
                         <h4 class="place__url-heading">url</h4>
-                        <a class="place__url link" href="http://park-kosa.ru/">park-kosa.ru</a>
+                        <a class="place__url link" href="http://park-kosa.ru/" target="_blank">park-kosa.ru</a>
                     </div>
                 </div>
                 <div class="place__container">
                     <div class="place__image-container">
-                        <img class="place__image" src="./images/place__image.jpg" alt="Картинка">
+                        <img class="place__image" src="<%=require('./images/place__image.jpg').default%>" alt="Картинка">
                     </div>
                     <div class="place__paragraph-container">
                         <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -82,12 +80,12 @@
                     <h2 class="place__title">Кольский</h2>
                     <div class="place__website">
                         <h4 class="place__url-heading">url</h4>
-                        <a class="place__url link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+                        <a class="place__url link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                     </div>
                 </div>
                 <div class="place__container">
                     <div class="place__image-container">
-                        <img class="place__image" src="./images/place__image2.jpg" alt="Картинка">
+                        <img class="place__image" src="<%=require('./images/place__image2.jpg').default%>" alt="Картинка">
                     </div>
                     <div class="place__paragraph-container">
                         <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -101,12 +99,12 @@
                     <h2 class="place__title">Алтай</h2>
                     <div class="place__website">
                         <h4 class="place__url-heading">url</h4>
-                        <a class="place__url link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
+                        <a class="place__url link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
                     </div>
                 </div>
                 <div class="place__container">
                     <div class="place__image-container">
-                        <img class="place__image" src="./images/place__image3.jpg" alt="Картинка">
+                        <img class="place__image" src="<%=require('./images/place__image3.jpg').default%>" alt="Картинка">
                     </div>
                     <div class="place__paragraph-container">
                         <p class="place__paragraph">Алтай — одно из красивейших мест в России. В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в автомобиле окна, сможете познакомиться с невидимым чудом здешних мест — горным воздухом.</p>
@@ -120,12 +118,12 @@
                     <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__website">
                         <h4 class="place__url-heading">url</h4>
-                        <a class="place__url link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+                        <a class="place__url link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                     </div>
                 </div>
                 <div class="place__container">
                     <div class="place__image-container">
-                        <img class="place__image" src="./images/place__image4.jpg" alt="Картинка">
+                        <img class="place__image" src="<%=require('./images/place__image4.jpg').default%>" alt="Картинка">
                     </div>
                     <div class="place__paragraph-container">
                         <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -139,12 +137,12 @@
                     <h2 class="place__title">Карелия</h2>
                     <div class="place__website">
                         <h4 class="place__url-heading">url</h4>
-                        <a class="place__url link" href="http://vodlozero.ru/">http://vodlozero.ru/</a>
+                        <a class="place__url link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
                     </div>
                 </div>
                 <div class="place__container">
                     <div class="place__image-container">  
-                        <img class="place__image" src="./images/place__image5.jpg" alt="Картинка">
+                        <img class="place__image" src="<%=require('./images/place__image5.jpg').default%>" alt="Картинка">
                     </div>
                     <div class="place__paragraph-container">
                         <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
@@ -158,19 +156,19 @@
             <h3 class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</h3>
             <div class="video__container">
                 <div class="video__item">
-                    <img class="video__icon-play" src="./images/__icon_play.svg" alt="Play">
+                    <img class="video__icon-play" src="<%=require('./images/__icon_play.svg').default%>" alt="Play">
                     <p class="video__duration">6:30</p>
                     <h4 class="video__title">Colors of Kamchatka</h4>
                     <h5 class="video__subtitle">Director: Pavel Karykhalin</h5>
-                    <img class="image" src="./images/kamchatka.jpg" alt="Картинка">
+                    <img class="image" src="<%=require('./images/kamchatka.jpg').default%>" alt="Картинка">
                     <a class="video__rect" href="https://vimeo.com/81106671" target="_blank"></a>
                 </div>
                 <div class="video__item">
-                    <img class="video__icon-play" src="./images/__icon_play.svg" alt="Play">
+                    <img class="video__icon-play" src="<%=require('./images/__icon_play.svg').default%>" alt="Play">
                     <p class="video__duration">24:45</p>
                     <h4 class="video__title">Обсерватория | Observatory</h4>
                     <h5 class="video__subtitle">Director: Alexander Khudokon </h5>
-                    <img class="image" src="./images/observatory.jpg" alt="Картинка">
+                    <img class="image" src="<%=require('./images/observatory.jpg').default%>" alt="Картинка">
                     <a class="video__rect" href="https://vimeo.com/290675450" target="_blank"></a>
                 </div>
             </div>
@@ -181,17 +179,17 @@
             <h3 class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</h3>
             <div class="comments__container">
                 <div class="comment">
-                    <img class="comment__image" src="./images/comment1.png" alt="Комментарий">
+                    <img class="comment__image" src="<%=require('./images/comment1.png').default%>" alt="Комментарий">
                     <blockquote class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
                     <p class="comment__author">Виктор Лягушкин</p>
                 </div>
                 <div class="comment">
-                    <img class="comment__image" src="./images/comment2.png" alt="Комментарий">
+                    <img class="comment__image" src="<%=require('./images/comment2.png').default%>" alt="Комментарий">
                     <blockquote class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
                     <p class="comment__author">Иван Хафизов</p>
                 </div>
                 <div class="comment">
-                    <img class="comment__image" src="./images/comment3.png" alt="Комментарий">
+                    <img class="comment__image" src="<%=require('./images/comment3.png').default%>" alt="Комментарий">
                     <blockquote class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
                     <p class="comment__author">Сергей Максимишин</p>
                 </div>
